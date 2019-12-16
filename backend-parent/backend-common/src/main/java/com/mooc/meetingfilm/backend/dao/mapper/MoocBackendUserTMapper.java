@@ -2,6 +2,7 @@ package com.mooc.meetingfilm.backend.dao.mapper;
 
 import com.mooc.meetingfilm.backend.dao.entity.MoocBackendUserT;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -12,5 +13,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2019-12-16
  */
 public interface MoocBackendUserTMapper extends BaseMapper<MoocBackendUserT> {
+    MoocBackendUserT desctibeUserByUserNmae(@Param("username") String username);
 
 }
