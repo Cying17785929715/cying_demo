@@ -2,6 +2,7 @@ package com.mooc.meetingfilm.backend.dao.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.Builder;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -14,6 +15,7 @@ import java.io.Serializable;
  * @since 2019-12-16
  */
 @Data
+//@Builder
 public class MoocBackendUserT extends Model<MoocBackendUserT> {
 
     private static final long serialVersionUID = 1L;

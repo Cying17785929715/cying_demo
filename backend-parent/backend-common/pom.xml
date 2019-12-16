@@ -19,6 +19,10 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+				<groupId>com.mooc.meetingfilm</groupId>
+				<artifactId>backend-utils</artifactId>
+		</dependency>
 		<!-- mybatis-plus依赖 -->
 		<dependency>
 			<groupId>com.baomidou</groupId>

@@ -16,6 +16,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>backend-common</module>
+		<module>backend-utils</module>
 	</modules>
 
 	<properties>
@@ -72,6 +73,19 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<dependency>
+				<groupId>com.mooc.meetingfilm</groupId>
+				<artifactId>backend-common</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.mooc.meetingfilm</groupId>
+				<artifactId>backend-utils</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<!-- mybatis-plus依赖111 -->
 			<dependency>
 				<groupId>com.baomidou</groupId>
