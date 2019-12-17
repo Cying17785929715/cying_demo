@@ -1,4 +1,4 @@
-package com.mooc.meetingfilm.backend.backend.user;
+package com.mooc.meetingfilm.user.dao;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -82,7 +82,7 @@ public class UserTest extends BackendCommonApplicationTests {
         }
 
 
-    @Test
+    /*@Test
     public void seleteUserName() {
 //        MoocBackendUserT userT = backendUserTMapper.selectById(2);
 //        System.out.println("受影响行" + userT);
@@ -93,7 +93,7 @@ public class UserTest extends BackendCommonApplicationTests {
         MoocBackendUserT list=backendUserTMapper.desctibeUserByUserNmae("admin0");
         System.out.println(list);
 
-    }
+    }*/
 
 
 
