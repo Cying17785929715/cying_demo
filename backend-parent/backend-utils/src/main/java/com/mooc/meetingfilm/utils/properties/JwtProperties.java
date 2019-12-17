@@ -1,9 +1,9 @@
 package com.mooc.meetingfilm.utils.properties;
-
 /**
- * jwt相关配置
- *
- * @author jiangzh
+ * User: CYing
+ * Date: 2019/12/17
+ * Time: 13:51
+ * Description:
  */
 public class JwtProperties {
 
@@ -19,7 +19,7 @@ public class JwtProperties {
 
     private String secret = "defaultSecret";
 
-    private Long expiration = 604800L;
+    private Long expiration = 604800L;  //默认是7天
 
     private String authPath = "login";
 

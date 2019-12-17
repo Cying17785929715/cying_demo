@@ -1,0 +1,23 @@
+mybatis-plus:
+  mapper-locations: classpath*:com/mooc/meetingfilm/**/xml/*Mapper.xml
+  global-config:
+    id-type: 0  #0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)
+    db-column-underline: false
+    refresh-mapper: true
+
+spring:
+  datasource:
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql://139.9.116.170:3306/cy_demo?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root1234
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 10
+    filters: log4j,wall,mergeStat
+
+
+
+logging:
+  config: classpath:logback.xml
+

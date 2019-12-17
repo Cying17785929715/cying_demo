@@ -20,7 +20,7 @@ import java.util.Map;
 public class EntityGenerator {
 
     // 生成输出目录，定位到工程的java目录下
-    private String outputDir = "F:\\muketang\\work\\backend-parent\\backend-common\\src\\main\\java";
+    private String outputDir = "F:\\muketang\\work\\backend-parent\\backend-user\\src\\main\\java";
     // 生成类的作者
     private String author = "chenying";
     // 数据源相关配置
@@ -31,7 +31,7 @@ public class EntityGenerator {
     private String userName = "root";
     private String userPwd = "root1234";
     // DAO的包路径
-    private String daoPackage = "com.mooc.meetingfilm.backend";
+    private String daoPackage = "com.mooc.meetingfilm.user.dao";
     // 待生成的表名，注意是覆盖更新
     private static String[] tableNames;
 

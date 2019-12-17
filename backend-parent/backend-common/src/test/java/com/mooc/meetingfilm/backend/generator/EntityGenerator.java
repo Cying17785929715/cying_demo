@@ -31,7 +31,7 @@ public class EntityGenerator {
     private String userName = "root";
     private String userPwd = "root1234";
     // DAO的包路径
-    private String daoPackage = "com.mooc.meetingfilm.backend";
+    private String daoPackage = "com.mooc.meetingfilm.backend.dao";
     // 待生成的表名，注意是覆盖更新
     private static String[] tableNames;
 

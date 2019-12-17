@@ -1,6 +1,6 @@
-package com.mooc.meetingfilm.utils.properties;
+package com.mooc.meetingfilm.utils.util;
 
-import com.mooc.jiangzh.springcloud.properties.JwtProperties;
+import com.mooc.meetingfilm.utils.properties.JwtProperties;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;
